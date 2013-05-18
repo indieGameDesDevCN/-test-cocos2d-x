@@ -32,6 +32,7 @@ public:
 		}
 	}
 	CCScene* initSceneByName(SceneName name);
+	void replaceSceneByName(SceneName name);
 };
 
 static SceneHolder *mSceneHolder = new SceneHolder;

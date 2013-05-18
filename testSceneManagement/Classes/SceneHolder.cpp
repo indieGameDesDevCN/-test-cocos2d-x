@@ -15,3 +15,6 @@ CCScene* SceneHolder::initSceneByName(SceneName name){
 		throw("unmatch scene name");
 	}
 }
+void SceneHolder::replaceSceneByName(SceneName name){
+	CCDirector::sharedDirector()->replaceScene(initSceneByName(name));
+}

@@ -1,4 +1,4 @@
-#include"MenuScene.h"
+#include "SceneHolder.h"
 
 using namespace cocos2d;
 

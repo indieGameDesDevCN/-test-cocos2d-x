@@ -1,5 +1,5 @@
-#include"TitleScene.h"
-#include "MenuScene.h"
+#include"SceneHolder.h"
+
 using namespace cocos2d;
 
 bool TitleScene::init(){
@@ -43,5 +43,5 @@ TitleSceneLayer::~TitleSceneLayer(){
 	}
 }
 void TitleSceneLayer::done(){
-	CCDirector::sharedDirector()->replaceScene(MenuScene::create());
+	mSceneHolder->replaceSceneByName(SceneHolder::SceneName::Menu);
 }
