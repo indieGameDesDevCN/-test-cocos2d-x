@@ -72,5 +72,8 @@
     <ClCompile Include="..\Classes\MenuScene.cpp">
       <Filter>source\scenes</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\SceneHolder.cpp">
+      <Filter>source\scenes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

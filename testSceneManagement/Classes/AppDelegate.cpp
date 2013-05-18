@@ -3,8 +3,7 @@
 #include "AppDelegate.h"
 #include "SimpleAudioEngine.h"
 
-#include "TitleScene.h"
-#include "MenuScene.h"
+#include "SceneHolder.h"
 
 using namespace CocosDenshion;
 

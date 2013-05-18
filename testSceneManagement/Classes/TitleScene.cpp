@@ -1,5 +1,5 @@
-#include"TitleScene.h"
-#include"MenuScene.h"
+#include"SceneHolder.h"
+
 using namespace cocos2d;
 
 bool TitleScene::init(){
@@ -30,7 +30,7 @@ bool TitleSceneLayer::init(){
 		_label->setPosition(ccp(winSize.width/2,winSize.height/2));
 		this->addChild(_label);
 
-		this->runAction(CCSequence::create(CCDelayTime::create(5),CCCallFunc::create(this, callfunc_selector(TitleSceneLayer::done)), NULL));
+		this->runAction(CCSequence::create(CCDelayTime::create(3),CCCallFunc::create(this, callfunc_selector(TitleSceneLayer::done)), NULL));
 		return true;
 	}else{
 		return false;
