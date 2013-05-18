@@ -22,7 +22,7 @@ TitleScene::~TitleScene(){
 // ===========================================
 // Layer
 bool TitleSceneLayer::init(){
-	if( CCLayerColor::initWithColor(ccc4(255,255,255,1))){
+	if( CCLayerColor::initWithColor(ccc4(255,255,255,255))){
 		CCSize winSize = CCDirector::sharedDirector()->getWinSize();
 		_label = CCLabelTTF::create("Hello, cocos2d-x!","Artial",32);
 		_label->retain();

@@ -1,4 +1,4 @@
-﻿Build started 5/18/2013 4:17:44 PM.
+﻿Build started 5/18/2013 4:37:50 PM.
      1>Project "C:\Programming\cocos2d-2.1rc0-x-2.1.2\[test]cocos2d-x\testSceneManagement\proj.win32\testSceneManagement.win32.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\Classes /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\include" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\kazmath\include" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\win32" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\third_party\win32" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\external" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\TitleScene.cpp
@@ -14,4 +14,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:06.17
+Time Elapsed 00:00:05.29
