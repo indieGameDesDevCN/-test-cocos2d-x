@@ -55,6 +55,9 @@
     <ClInclude Include="..\Classes\TitleScene.h">
       <Filter>include\scenes</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>include\scenes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
