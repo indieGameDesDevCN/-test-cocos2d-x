@@ -1,10 +1,10 @@
-#include"TitleScene.h"
 #include"MenuScene.h"
+
 using namespace cocos2d;
 
-bool TitleScene::init(){
+bool MenuScene::init(){
 	if( CCScene::init()){
-		this->_layer = TitleSceneLayer::create();
+		this->_layer = MenuSceneLayer::create();
 		this->_layer->retain();
 		this->addChild(_layer);
 		return true;
@@ -12,7 +12,7 @@ bool TitleScene::init(){
 		return false;
 	}
 }
-TitleScene::~TitleScene(){
+MenuScene::~MenuScene(){
 	if(_layer){
 		_layer->release();
 		_layer = NULL;
@@ -21,27 +21,22 @@ TitleScene::~TitleScene(){
 
 // ===========================================
 // Layer
-bool TitleSceneLayer::init(){
+bool MenuSceneLayer::init(){
 	if( CCLayerColor::initWithColor(ccc4(255,255,255,255))){
 		CCSize winSize = CCDirector::sharedDirector()->getWinSize();
-		_label = CCLabelTTF::create("Hello, cocos2d-x!","Artial",32);
+		_label = CCLabelTTF::create("This is Menu Scene","Artial",32);
 		_label->retain();
 		_label->setColor(ccc3(0,0,0));
 		_label->setPosition(ccp(winSize.width/2,winSize.height/2));
 		this->addChild(_label);
-
-		this->runAction(CCSequence::create(CCDelayTime::create(5),CCCallFunc::create(this, callfunc_selector(TitleSceneLayer::done)), NULL));
 		return true;
 	}else{
 		return false;
 	}
 }
-TitleSceneLayer::~TitleSceneLayer(){
+MenuSceneLayer::~MenuSceneLayer(){
 	if(_label){
 		_label->release();
 		_label = NULL;
 	}
-}
-void TitleSceneLayer::done(){
-	CCDirector::sharedDirector()->replaceScene(MenuScene::create());
 }

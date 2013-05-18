@@ -58,9 +58,6 @@
     <ClInclude Include="..\Classes\MenuScene.h">
       <Filter>include\scenes</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>include\scenes</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -69,10 +66,10 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+    <ClCompile Include="..\Classes\TitleScene.cpp">
       <Filter>source\scenes</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\TitleScene.cpp">
+    <ClCompile Include="..\Classes\MenuScene.cpp">
       <Filter>source\scenes</Filter>
     </ClCompile>
   </ItemGroup>

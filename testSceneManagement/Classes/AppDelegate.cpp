@@ -4,6 +4,7 @@
 #include "SimpleAudioEngine.h"
 
 #include "TitleScene.h"
+#include "MenuScene.h"
 
 using namespace CocosDenshion;
 
