@@ -43,5 +43,5 @@ TitleSceneLayer::~TitleSceneLayer(){
 	}
 }
 void TitleSceneLayer::done(){
-	mSceneHolder->replaceSceneByName(SceneHolder::SceneName::Menu);
+	SceneHolder::replaceSceneByName(SceneHolder::SceneName::Menu);
 }

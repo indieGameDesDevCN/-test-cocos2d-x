@@ -18,3 +18,6 @@ CCScene* SceneHolder::initSceneByName(SceneName name){
 void SceneHolder::replaceSceneByName(SceneName name){
 	CCDirector::sharedDirector()->replaceScene(initSceneByName(name));
 }
+void SceneHolder::end(){
+	CCDirector::sharedDirector()->end();
+}

@@ -17,10 +17,9 @@ public:
 	// ===========================
 	SceneHolder(){}
 	~SceneHolder(){}
-	CCScene* initSceneByName(SceneName name);
-	void replaceSceneByName(SceneName name);
+	static CCScene* initSceneByName(SceneName name);
+	static void replaceSceneByName(SceneName name);
+	static void end();
 };
-
-static SceneHolder *mSceneHolder = new SceneHolder;
 
 #endif // !__SCENE_HOLDER_H__
