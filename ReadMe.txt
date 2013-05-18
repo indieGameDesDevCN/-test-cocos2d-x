@@ -1,0 +1,1 @@
+This repository holds all the test projects relate to cocos2d-x game engine.
