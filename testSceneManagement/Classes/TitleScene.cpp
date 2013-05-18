@@ -1,5 +1,5 @@
-#include"SceneHolder.h"
-
+#include"TitleScene.h"
+#include "MenuScene.h"
 using namespace cocos2d;
 
 bool TitleScene::init(){
