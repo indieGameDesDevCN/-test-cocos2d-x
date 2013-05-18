@@ -5,11 +5,11 @@ using namespace std;
 using namespace cocos2d;
 CCScene* SceneHolder::initSceneByName(SceneName name){
 	if(name == SceneName::Title){
-		this->mTitleScene = TitleScene::create();
-		return mTitleScene;
+		CCScene *pScene = TitleScene::create();
+		return pScene;
 	}else if(name == SceneName::Menu){
-		this->mMenuScene = MenuScene::create();
-		return mMenuScene;
+		CCScene *pScene = MenuScene::create();
+		return pScene;
 	}else{
 		cerr<<"error: no such name.";
 		throw("unmatch scene name");

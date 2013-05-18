@@ -7,8 +7,6 @@ using namespace cocos2d;
 
 class SceneHolder
 {
-	TitleScene *mTitleScene;
-	MenuScene *mMenuScene;
 public:
 	// ===========================
 	// names
@@ -17,20 +15,8 @@ public:
 		Menu
 	};
 	// ===========================
-	SceneHolder(){
-		mTitleScene = NULL;
-		mMenuScene = NULL;
-	}
-	~SceneHolder(){
-		if(mTitleScene){
-			delete mTitleScene;
-			mTitleScene = NULL;
-		}
-		if(mMenuScene){
-			delete mMenuScene;
-			mMenuScene = NULL;
-		}
-	}
+	SceneHolder(){}
+	~SceneHolder(){}
 	CCScene* initSceneByName(SceneName name);
 	void replaceSceneByName(SceneName name);
 };
