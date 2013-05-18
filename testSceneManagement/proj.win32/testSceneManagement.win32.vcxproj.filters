@@ -16,6 +16,9 @@
     <Filter Include="include\scenes">
       <UniqueIdentifier>{6cb23500-1b78-4a1d-8d85-25014695299f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\scenes">
+      <UniqueIdentifier>{b3545a6c-9e93-420f-831a-4d516a7d3199}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\testSceneManagement.ico">
@@ -46,9 +49,6 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>include</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\SceneHolder.h">
       <Filter>include\scenes</Filter>
     </ClInclude>
@@ -56,6 +56,9 @@
       <Filter>include\scenes</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>include\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>include\scenes</Filter>
     </ClInclude>
   </ItemGroup>
@@ -67,7 +70,10 @@
       <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>source</Filter>
+      <Filter>source\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>source\scenes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
