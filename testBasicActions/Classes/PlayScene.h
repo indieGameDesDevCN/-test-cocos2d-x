@@ -14,6 +14,9 @@ public:
 	CC_SYNTHESIZE_READONLY(CCLabelTTF*,_label,Label)
 private:
 	void end();
+	void end(CCObject* pSender);
+private:
+	CCSprite *mShip;
 };
 // =============================================
 // Scene

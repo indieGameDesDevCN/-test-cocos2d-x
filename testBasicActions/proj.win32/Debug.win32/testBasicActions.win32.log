@@ -1,21 +1,8 @@
-﻿Build started 5/18/2013 8:11:26 PM.
+﻿Build started 5/19/2013 1:36:52 PM.
      1>Project "C:\Programming\cocos2d-2.1rc0-x-2.1.2\[test]cocos2d-x\testBasicActions\proj.win32\testBasicActions.win32.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\Classes /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\include" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\kazmath\include" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\win32" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\third_party\win32" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\external" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\MenuScene.cpp ..\Classes\PlayScene.cpp ..\Classes\SceneHolder.cpp ..\Classes\TitleScene.cpp
-         AppDelegate.cpp
-         Generating Code...
-         Compiling...
-         MenuScene.cpp
-         Generating Code...
-         Compiling...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I..\Classes /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\include" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\kazmath\include" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\win32" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\third_party\win32" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\external" /I"C:\Programming\cocos2d-2.1rc0-x-2.1.2\CocosDenshion\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\PlayScene.cpp
          PlayScene.cpp
-         Generating Code...
-         Compiling...
-         SceneHolder.cpp
-         Generating Code...
-         Compiling...
-         TitleScene.cpp
-         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Programming\cocos2d-2.1rc0-x-2.1.2\Debug.win32\testBasicActions.win32.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Programming\cocos2d-2.1rc0-x-2.1.2\Debug.win32\\" libcocos2d.lib opengl32.lib glew32.lib libBox2d.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Programming\cocos2d-2.1rc0-x-2.1.2\Debug.win32\testBasicActions.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Programming\cocos2d-2.1rc0-x-2.1.2\Debug.win32\testBasicActions.win32.lib" /MACHINE:X86 Debug.win32\testBasicActions.res
          Debug.win32\AppDelegate.obj
@@ -29,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:25.72
+Time Elapsed 00:00:05.74

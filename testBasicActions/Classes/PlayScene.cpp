@@ -30,7 +30,22 @@ bool PlaySceneLayer::init(){
 		_label->setPosition(ccp(winSize.width/2,winSize.height/2));
 		this->addChild(_label);
 
-		this->runAction(CCSequence::create(CCDelayTime::create(3),CCCallFunc::create(this, callfunc_selector(PlaySceneLayer::end)), NULL));
+		//this->runAction(CCSequence::create(CCDelayTime::create(3),CCCallFunc::create(this, callfunc_selector(PlaySceneLayer::end)), NULL));
+		CCSize visibleSize = CCDirector::sharedDirector()->getVisibleSize();
+		CCPoint origin = CCDirector::sharedDirector()->getVisibleOrigin();
+		CCMenuItemImage *pCloseItem = CCMenuItemImage::create(
+			"CloseNormal.png",
+			"CloseSelected.png",
+			this,
+			menu_selector(PlaySceneLayer::end));
+
+		pCloseItem->setPosition(ccp(origin.x + visibleSize.width - pCloseItem->getContentSize().width/2 ,
+			origin.y + pCloseItem->getContentSize().height/2));
+		CCMenu* pMenu = CCMenu::create(pCloseItem, NULL);
+		pMenu->setPosition(CCPointZero);
+		this->addChild(pMenu, 1);
+
+
 		return true;
 	}else{
 		return false;
@@ -43,5 +58,8 @@ PlaySceneLayer::~PlaySceneLayer(){
 	}
 }
 void PlaySceneLayer::end(){
+	SceneHolder::end();
+}
+void PlaySceneLayer::end(CCObject* pSender){
 	SceneHolder::end();
 }
