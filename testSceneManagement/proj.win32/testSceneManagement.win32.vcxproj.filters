@@ -58,6 +58,9 @@
     <ClInclude Include="..\Classes\MenuScene.h">
       <Filter>include\scenes</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\PlayScene.h">
+      <Filter>include\scenes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -73,6 +76,9 @@
       <Filter>source\scenes</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\SceneHolder.cpp">
+      <Filter>source\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayScene.cpp">
       <Filter>source\scenes</Filter>
     </ClCompile>
   </ItemGroup>

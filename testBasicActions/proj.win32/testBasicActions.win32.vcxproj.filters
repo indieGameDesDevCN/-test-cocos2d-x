@@ -13,6 +13,12 @@
       <UniqueIdentifier>{5c00d161-1d60-4e80-9a24-755e5cc29323}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
     </Filter>
+    <Filter Include="include\scenes">
+      <UniqueIdentifier>{0fa6562f-c7b3-418b-9930-30f88d2127bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\scenes">
+      <UniqueIdentifier>{5708f66f-1ebe-40cf-ac7b-15a2e484397b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\testBasicActions.ico">
@@ -43,8 +49,17 @@
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>include</Filter>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>include\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneHolder.h">
+      <Filter>include\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TitleScene.h">
+      <Filter>include\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayScene.h">
+      <Filter>include\scenes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -54,8 +69,17 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>source</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>source\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SceneHolder.cpp">
+      <Filter>source\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TitleScene.cpp">
+      <Filter>source\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayScene.cpp">
+      <Filter>source\scenes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
