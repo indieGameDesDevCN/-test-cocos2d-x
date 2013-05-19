@@ -36,8 +36,18 @@ bool PlaySceneLayer::init(){
 		mShip->setPosition(ccp(winSize.width/2,winSize.height/2));
 		this->addChild(mShip,0);
 		
+		// CCSequence
+		mShip->runAction(CCSequence::create(CCRotateTo::create(5,90),CCBlink::create(6,16),CCJumpBy::create(8,ccp(200,0),100,5),NULL));
+		// CCBlink
+		//mShip->runAction(CCBlink::create(6,6));
+		// CCTintTo
+		//mShip->runAction(CCTintTo::create(6,255,0,0));
+		// CCFadeOut
+		//mShip->runAction(CCFadeOut::create(5));
+		// CCFadeIn
+		//mShip->runAction(CCFadeIn::create(5));
 		// CCJumpBy
-		mShip->runAction(CCJumpBy::create(8,ccp(200,0),100,5));
+		//mShip->runAction(CCJumpBy::create(8,ccp(200,0),100,5));
 		// CCJumpTo
 		//mShip->runAction(CCJumpTo::create(16,ccp(100,100),30,3));
 		// CCMoveBy
@@ -45,7 +55,7 @@ bool PlaySceneLayer::init(){
 		// CCMoveTo
 		//mShip->runAction(CCMoveTo::create(16,ccp(winSize.width,winSize.height)));
 		// CCRotateBy
-		mShip->runAction(CCRotateBy::create(5,180));
+		//mShip->runAction(CCRotateBy::create(5,180));
 		// CCRotateTo
 		//mShip->runAction(CCRotateTo::create(5,90));
 		// =======================================
