@@ -1,0 +1,9 @@
+test basic actions
+
+ccMoveBy/To
+ccJumpBy/To
+ccRotateBy/To
+...
+...
+ccSequence
+...

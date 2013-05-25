@@ -12,6 +12,11 @@ public:
 	bool init();
 	CREATE_FUNC(PlayerLayer)
 	CC_SYNTHESIZE_READONLY(CCLabelTTF*,_label,Label)
+
+	void ccTouchesBegan(CCSet *touches, CCEvent *event);
+	void ccTouchesMoved(CCSet *touches, CCEvent *event);
+	void ccTouchesEnded(CCSet *touches, CCEvent *event);
+	void ccTouchesCancelled(CCSet *touches, CCEvent *event);
 private:
 	void end();
 	void end(CCObject* pSender);
@@ -27,6 +32,11 @@ public:
 	bool init();
 	CREATE_FUNC(BackLayer)
 	CC_SYNTHESIZE_READONLY(CCLabelTTF*,_label,Label)
+
+	void ccTouchesBegan(CCSet *touches, CCEvent *event);
+	void ccTouchesMoved(CCSet *touches, CCEvent *event);
+	void ccTouchesEnded(CCSet *touches, CCEvent *event);
+	void ccTouchesCancelled(CCSet *touches, CCEvent *event);
 private:
 	void end();
 	void end(CCObject* pSender);
@@ -40,6 +50,11 @@ public:
 	bool init();
 	CREATE_FUNC(FrontLayer)
 	CC_SYNTHESIZE_READONLY(CCLabelTTF*,_label,Label)
+
+	void ccTouchesBegan(CCSet *touches, CCEvent *event);
+	void ccTouchesMoved(CCSet *touches, CCEvent *event);
+	void ccTouchesEnded(CCSet *touches, CCEvent *event);
+	void ccTouchesCancelled(CCSet *touches, CCEvent *event);
 private:
 	void end();
 	void end(CCObject* pSender);

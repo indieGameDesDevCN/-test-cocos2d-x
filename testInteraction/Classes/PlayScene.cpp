@@ -55,6 +55,15 @@ void BackLayer::end(){
 void BackLayer::end(CCObject* pSender){
 	SceneHolder::end();
 }
+
+void BackLayer::ccTouchesBegan(CCSet *touches, CCEvent *event){
+}
+void BackLayer::ccTouchesMoved(CCSet *touches, CCEvent *event){
+}
+void BackLayer::ccTouchesEnded(CCSet *touches, CCEvent *event){
+}
+void BackLayer::ccTouchesCancelled(CCSet *touches, CCEvent *event){
+}
 // Front Layer
 bool FrontLayer::init(){
 	if( CCLayerColor::initWithColor(ccc4(255,255,255,0))){
@@ -97,6 +106,15 @@ void FrontLayer::end(){
 }
 void FrontLayer::end(CCObject* pSender){
 	SceneHolder::end();
+}
+
+void FrontLayer::ccTouchesBegan(CCSet *touches, CCEvent *event){
+}
+void FrontLayer::ccTouchesMoved(CCSet *touches, CCEvent *event){
+}
+void FrontLayer::ccTouchesEnded(CCSet *touches, CCEvent *event){
+}
+void FrontLayer::ccTouchesCancelled(CCSet *touches, CCEvent *event){
 }
 // Player Layer
 // =======================================
@@ -154,4 +172,13 @@ void PlayerLayer::end(){
 }
 void PlayerLayer::end(CCObject* pSender){
 	SceneHolder::end();
+}
+
+void PlayerLayer::ccTouchesBegan(CCSet *touches, CCEvent *event){
+}
+void PlayerLayer::ccTouchesMoved(CCSet *touches, CCEvent *event){
+}
+void PlayerLayer::ccTouchesEnded(CCSet *touches, CCEvent *event){
+}
+void PlayerLayer::ccTouchesCancelled(CCSet *touches, CCEvent *event){
 }
