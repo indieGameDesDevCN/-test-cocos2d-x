@@ -1,0 +1,9 @@
+﻿Build started 5/18/2013 9:29:58 PM.
+     1>Project "C:\Programming\cocos2d-2.1rc0-x-2.1.2\[test]cocos2d-x\testSceneManagement\proj.win32\testSceneManagement.win32.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         testSceneManagement.win32.vcxproj -> C:\Programming\cocos2d-2.1rc0-x-2.1.2\Debug.win32\testSceneManagement.win32.exe
+     1>Done Building Project "C:\Programming\cocos2d-2.1rc0-x-2.1.2\[test]cocos2d-x\testSceneManagement\proj.win32\testSceneManagement.win32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.28
